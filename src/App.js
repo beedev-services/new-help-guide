@@ -1,6 +1,5 @@
 import React from 'react';
 import './css/App.css';
-// import styled from "styled-components";
 import {Route, Switch, Link} from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
@@ -15,16 +14,6 @@ import Basics from "./components/guides/basics";
 // import Redux from "./components/redux/Redux";
 
 function App() {
-  // const [tips, setTips] = useState([]);
- 
-    // useEffect(() => {
-    //         axios
-    //         .get("https://beedev-services-help-guide-api.herokuapp.com/api/tips")
-    //         .then(res => {
-    //             setTips(res.data);
-    //         })
-    //         .catch(err => alert("Error gettinglist! \n" + err));
-    // }, []);
 
   return (
     <div className="App">
