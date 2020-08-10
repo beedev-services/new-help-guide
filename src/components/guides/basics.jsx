@@ -8,7 +8,7 @@ function Basics() {
         loading: false,
         tips: null,
     });
-
+console.log(typeof tips);
     useEffect(() => {
         setAppState({ loading: true });
         const basicsURL = `https://beedev-services-help-guide-api.herokuapp.com/api/tips/1`;
