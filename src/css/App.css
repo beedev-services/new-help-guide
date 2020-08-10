@@ -1,0 +1,442 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+.flexrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.flexcolumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flexcolumnalt {
+  display: flex;
+  flex-direction: column;
+}
+.center {
+  margin: auto;
+}
+.App {
+  background-color: #FDFDBE;
+  color: #040010;
+}
+.App nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 6px groove #F57D84;
+  padding: 1em;
+  background-color: #517246;
+  color: #FDFDBE;
+}
+.App nav .title-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1em;
+  font-weight: bold;
+}
+.App nav .title-bar h2 {
+  font-size: 2em;
+  padding: 0.2em 0;
+}
+.App nav .title-bar h4 {
+  font-size: 1.5em;
+  padding: 0.2em 0;
+}
+.App nav .nav-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0.5em;
+  font-size: 1.1em;
+}
+.App nav .nav-links a {
+  padding: 1em;
+  color: #FDFDBE;
+}
+.App .home-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1.2em;
+  color: #040010;
+  font-size: 3em;
+  font-weight: bold;
+}
+.App .home-wrapper .home-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App .home-wrapper .home-section h2 {
+  font-size: 1em;
+}
+.App .home-wrapper .home-section p {
+  font-size: 0.45em;
+  font-weight: 100;
+  padding: 5px;
+}
+.App .home-wrapper .home-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.App .home-wrapper .home-buttons .home-button {
+  background-color: #3F7C81;
+  padding: 0.5em 1em;
+  margin: 0.5em;
+  color: #040010;
+  font-size: 0.33em;
+  border: 4px groove #3F7C81;
+}
+.App .guide-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App .guide-wrapper .guide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App .guide-wrapper .guide .guide-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App .guide-wrapper .guide .guide-header button {
+  background-color: #3F7C81;
+  padding: 0.5em 1em;
+  margin: 0.5em;
+  color: #FDFDBE;
+  font-size: 1em;
+  border: 4px groove #3F7C81;
+}
+.App .guide-wrapper .guide .guide-header h1 {
+  color: #040010;
+  font-size: 2em;
+  font-weight: bold;
+}
+.App .guide-wrapper .guide .guide-words {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #040010;
+  text-align: center;
+}
+.App .guide-wrapper .the-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 1em;
+  margin: o 1em 1em 1em;
+}
+.App .guide-wrapper .the-items .item-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  margin: 1em;
+  width: 400px;
+}
+.App .guide-wrapper .the-items .item-card h3 {
+  color: #040010;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: 0.3em;
+}
+.App .guide-wrapper .the-items .item-card .item-info {
+  color: #040010;
+  font-size: 1.1em;
+}
+.App .guide-wrapper .the-items .item-card .item-info p {
+  margin: 0.5em 0.5em 0.7em 0.5em;
+  padding: 0.2em;
+}
+.App .about-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App .about-wrapper .about-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+}
+.App .about-wrapper .about-header h1 {
+  color: #3F7C81;
+  font-size: 2em;
+  font-weight: bold;
+}
+.App .about-wrapper .about-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60rem;
+  padding: 1em;
+  margin: 1em;
+}
+.App .about-wrapper .about-text p {
+  color: #040010;
+  font-size: 1.3em;
+}
+.App .about-wrapper .about-the-authors {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+}
+.App .about-wrapper .about-the-authors .author-heading h2 {
+  color: #3F7C81;
+  font-size: 1.8em;
+  margin: 1em;
+}
+.App .about-wrapper .about-the-authors .the-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.App .about-wrapper .about-the-authors .the-cards .author-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.App .about-wrapper .about-the-authors .the-cards .author-card .author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 6px groove #F57D84;
+  margin: 1em;
+  width: 35em;
+}
+.App .about-wrapper .about-the-authors .the-cards .author-card .author .author-picture {
+  padding: 0.5em;
+}
+.App .about-wrapper .about-the-authors .the-cards .author-card .author .author-picture img {
+  width: 15em;
+}
+.App .about-wrapper .about-the-authors .the-cards .author-card .author .author-info {
+  padding: 0.5em;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App .about-wrapper .about-the-authors .the-cards .author-card .author .author-info h4 {
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #3F7C81;
+  margin: 0.3em;
+}
+.App .about-wrapper .about-the-authors .the-cards .author-card .author .author-info p {
+  font-size: 1em;
+  color: #040010;
+  margin: 1em 0.2em;
+}
+.App .Footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #F57D84;
+  background-color: #517246;
+  color: #FDFDBE;
+  font-size: 1.2em;
+  padding: 1em;
+}
+.App .Footer .madeby {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.App .Footer .madeby img {
+  margin: 10px;
+  width: 30px;
+}
+@media only screen and (max-width: 850px) {
+  .App nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .App .home-wrapper {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .App nav .title-bar h2 {
+    font-size: 1.5em;
+  }
+  .App nav .title-bar h4 {
+    font-size: 1em;
+  }
+  .App nav .nav-links {
+    flex-wrap: wrap;
+  }
+  .App .guide-wrapper .the-items .item-card {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .App .guide-wrapper .the-items .item-card {
+    width: 250px;
+  }
+}

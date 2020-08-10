@@ -1,0 +1,48 @@
+.flexrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.flexcolumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flexcolumnalt {
+  display: flex;
+  flex-direction: column;
+}
+.center {
+  margin: auto;
+}
+@media only screen and (max-width: 850px) {
+  .App nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .App .home-wrapper {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .App nav .title-bar h2 {
+    font-size: 1.5em;
+  }
+  .App nav .title-bar h4 {
+    font-size: 1em;
+  }
+  .App nav .nav-links {
+    flex-wrap: wrap;
+  }
+  .App .guide-wrapper .the-items .item-card {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .App .guide-wrapper .the-items .item-card {
+    width: 250px;
+  }
+}

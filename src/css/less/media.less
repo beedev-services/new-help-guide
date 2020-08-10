@@ -1,0 +1,45 @@
+@import 'base.less';
+
+@media @850 {
+    .App {
+        nav {
+            .flexcolumn();   
+        }
+        .home-wrapper {
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@media @530 {
+    .App {
+        nav {
+            .title-bar {
+                h2 {font-size: 1.5em;}
+                h4 {font-size: 1em;}
+            }
+            .nav-links {
+                flex-wrap: wrap;
+            }
+        }
+        .guide-wrapper {
+            .the-items {
+                .item-card {
+                    width: 300px;
+                }
+            }
+        }
+    }
+}
+
+@media @400 {
+    .App {
+        .guide-wrapper {
+            .the-items {
+                .item-card {
+                    width: 250px;
+                }
+            }
+        }
+    }
+}
