@@ -5,13 +5,12 @@ import Home from './components/Home';
 import About from './components/About';
 import Guides from './components/Guides';
 import Advanced from "./components/Advanced";
-// import Html from "./components/html/Html";
-// import Css from "./components/css/Css";
-// import Js from "./components/js/Js";
-// import ReactGuide from "./components/react/ReactGuide";
+import Html from "./components/guides/html";
+import Css from "./components/guides/css";
+import Js from "./components/guides/js";
+import Reactjs from "./components/guides/reactjs";
 import Basics from "./components/guides/basics";
-// import Node from "./components/nodejs/Nodejs";
-// import Redux from "./components/redux/Redux";
+import Nodejs from "./components/guides/nodejs";
 
 function App() {
 
@@ -42,24 +41,21 @@ function App() {
           <Route path="/basics-guide">
             <Basics />
           </Route>
-          {/* <Route path="/html-guide">
+          <Route path="/html-guide">
             <Html />
-          </Route> */}
-          {/* <Route path="/css-guide">
+          </Route>
+          <Route path="/css-guide">
             <Css />
-           </Route> */}
-           {/* <Route path="/js-guide">
+           </Route>
+           <Route path="/js-guide">
              <Js />
-           </Route> */}
-          {/* <Route path="/react-guide">
-            <ReactGuide />
-          </Route> */}
-          {/* <Route path="/redux-guide">
-            <Redux />
-          </Route> */}
-          {/* <Route path="/node-guide">
-            <Node />
-          </Route> */}
+           </Route>
+          <Route path="/react-guide">
+            <Reactjs />
+          </Route>
+          <Route path="/node-guide">
+            <Nodejs />
+          </Route>
           <Route path="/" component={Home} />
         </Switch>
         <div className="Footer">

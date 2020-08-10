@@ -37,12 +37,12 @@
   .App nav .nav-links {
     flex-wrap: wrap;
   }
-  .App .guide-wrapper .the-items .item-card {
+  .App .guide-wrapper .the-tips .tips .tip-card {
     width: 300px;
   }
 }
 @media only screen and (max-width: 400px) {
-  .App .guide-wrapper .the-items .item-card {
+  .App .guide-wrapper .the-tips .tips .tip-card {
     width: 250px;
   }
 }

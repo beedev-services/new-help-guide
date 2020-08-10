@@ -237,69 +237,44 @@ body {
   justify-content: center;
   align-items: center;
 }
-.App .guide-wrapper .guide {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.App .guide-wrapper .guide .guide-header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.App .guide-wrapper .guide .guide-header button {
-  background-color: #3F7C81;
-  padding: 0.5em 1em;
-  margin: 0.5em;
-  color: #FDFDBE;
-  font-size: 1em;
-  border: 4px groove #3F7C81;
-}
-.App .guide-wrapper .guide .guide-header h1 {
+.App .guide-wrapper .guide-header h1 {
   color: #040010;
   font-size: 2em;
   font-weight: bold;
+  padding: 1em 0.5em;
 }
-.App .guide-wrapper .guide .guide-words {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #040010;
-  text-align: center;
-}
-.App .guide-wrapper .the-items {
+.App .guide-wrapper .the-tips {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
   align-items: flex-start;
   flex-wrap: wrap;
-  padding: 1em;
-  margin: o 1em 1em 1em;
 }
-.App .guide-wrapper .the-items .item-card {
+.App .guide-wrapper .the-tips .tips {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-items: flex-start;
+}
+.App .guide-wrapper .the-tips .tips .tip-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1em;
-  margin: 1em;
-  width: 400px;
+  width: 300px;
 }
-.App .guide-wrapper .the-items .item-card h3 {
+.App .guide-wrapper .the-tips .tips .tip-card h3 {
   color: #040010;
   font-size: 1.3em;
   font-weight: bold;
   padding: 0.3em;
 }
-.App .guide-wrapper .the-items .item-card .item-info {
+.App .guide-wrapper .the-tips .tips .tip-card .tip-info {
   color: #040010;
   font-size: 1.1em;
 }
-.App .guide-wrapper .the-items .item-card .item-info p {
+.App .guide-wrapper .the-tips .tips .tip-card .tip-info p {
   margin: 0.5em 0.5em 0.7em 0.5em;
   padding: 0.2em;
 }
@@ -431,12 +406,12 @@ body {
   .App nav .nav-links {
     flex-wrap: wrap;
   }
-  .App .guide-wrapper .the-items .item-card {
+  .App .guide-wrapper .the-tips .tips .tip-card {
     width: 300px;
   }
 }
 @media only screen and (max-width: 400px) {
-  .App .guide-wrapper .the-items .item-card {
+  .App .guide-wrapper .the-tips .tips .tip-card {
     width: 250px;
   }
 }

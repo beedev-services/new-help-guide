@@ -5,7 +5,7 @@ const List = (props) => {
     if (!tips || tips.length === 0) return <p>Tips comming soon!</p>;
     
     return (
-        <div>
+        <div className='tips'>
             {tips.map((tip) => {
                 return (
                     <div className="tip-card" key={tip.id}>

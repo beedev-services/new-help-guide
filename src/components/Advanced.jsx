@@ -10,14 +10,8 @@ function Advanced() {
     const routeToReact = event => { 
         history.push("./react-guide");
     };
-    const routeToRedux = event => {
-        history.push("./redux-guide");
-    };
     const routeToNode = event => {
         history.push("./node-guide");
-    };
-    const routeToJava = event => {
-        history.push("./java-guide");
     };
 
     return (
@@ -29,9 +23,7 @@ function Advanced() {
             <div className="home-buttons">
                 <button className="md-button home-button" onClick={routeToGuides}>Beginner Guides</button>
                 <button className="md-button home-button" onClick={routeToReact}>See React Guides</button>
-                <button className="md-button home-button" onClick={routeToRedux}>See Reduce/Redux Guides</button>
                 <button className="md-button home-button" onClick={routeToNode}>See Node Guides</button>
-                <button className="md-button home-button" onClick={routeToJava}>See Java Guides</button>
             </div>
         </div>
     );
