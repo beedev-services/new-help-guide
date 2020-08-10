@@ -28,6 +28,9 @@ console.log(typeof tips);
       </div>
     );
 }
+
+// Below alone with out above does work and console.logs the right data
+
 // class Baics extends React.Component {
 //     componentDidMount() {
 //       const basicsUrl = 'https://beedev-services-help-guide-api.herokuapp.com/api/tips/1';
