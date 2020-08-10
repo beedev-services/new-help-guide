@@ -1,5 +1,4 @@
-import React, {useState, useEffect} from 'react';
-import axios from 'axios';
+import React from 'react';
 import './css/App.css';
 // import styled from "styled-components";
 import {Route, Switch, Link} from 'react-router-dom';
@@ -16,7 +15,7 @@ import Basics from "./components/guides/basics";
 // import Redux from "./components/redux/Redux";
 
 function App() {
-  const [tips, setTips] = useState([]);
+  // const [tips, setTips] = useState([]);
  
     // useEffect(() => {
     //         axios
