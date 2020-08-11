@@ -85,9 +85,11 @@
             justify-content: space-evenly;
             align-items: flex-start;
             flex-wrap: wrap;
+            width: 85%;
 
             .tips {.flexrow();
                 align-items: flex-start;
+                flex-wrap: wrap;
     
                 .tip-card {.flexcolumn();
                     width: 300px;
@@ -126,7 +128,7 @@
         }
         .about-text {
             .flexcolumn();
-            width: 60rem;
+            width: 80%;
             padding: 1em;
             margin: 1em;
             p {
@@ -149,11 +151,13 @@
                 flex-wrap: wrap;
                 .author-card {
                     .flexrow();
+                    justify-content: center;
+
                     .author {
                         .flexrow();
                         border: @border;
                         margin: 1em;
-                        width: 35em;
+                        width: 80%;
                         .author-picture {
                             padding: .5em;
                             img {width: 15em;}

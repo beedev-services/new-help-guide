@@ -7,6 +7,14 @@
         }
         .home-wrapper {
             flex-wrap: wrap;
+            .home-section {
+                p {
+                    padding: 3px;
+                }
+            }
+        }
+        .home-buttons {
+            flex-wrap: wrap;
         }
     }
 }
@@ -20,6 +28,25 @@
             }
             .nav-links {
                 flex-wrap: wrap;
+            }
+        }
+        .home-wrapper {
+            justify-content: center;
+        }
+        .about-wrapper {
+            .about-the-authors {
+                .the-cards {
+                    .author-card {
+                        .author {
+                            flex-direction: column;
+                            width: 50%;
+
+                            .author-picture {
+                                img {width: 75%;}
+                            }
+                        }
+                    }
+                }
             }
         }
         .guide-wrapper {
@@ -36,6 +63,13 @@
 
 @media @400 {
     .App {
+        .home-wrapper {
+            padding: 1.2em .5em;
+
+            .home-buttons {
+                .flexcolumn();
+            }
+        }
         .guide-wrapper {
             .the-tips {
                 .tips {

@@ -24,7 +24,7 @@ function App() {
           <div className="nav-links">
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
-            <Link to="/the-guides">Basic Guides</Link>
+            <Link to="/the-guides">Beginner Guides</Link>
             <Link to="/advanced-guides">Advanced Guides</Link>
           </div>
         </nav>

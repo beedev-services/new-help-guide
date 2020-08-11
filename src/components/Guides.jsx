@@ -23,7 +23,7 @@ function Guides() {
     return (
         <div className="home-wrapper">
             <div className="home-section">
-            <h2>A Web Developers Guide for Beginners</h2>
+            <h2>Guides for Beginners</h2>
             <p>These guides are for the Web Developers that are just starting out</p>
             </div>
             <div className="home-buttons">

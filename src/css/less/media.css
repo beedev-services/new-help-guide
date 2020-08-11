@@ -26,6 +26,12 @@
   .App .home-wrapper {
     flex-wrap: wrap;
   }
+  .App .home-wrapper .home-section p {
+    padding: 3px;
+  }
+  .App .home-buttons {
+    flex-wrap: wrap;
+  }
 }
 @media only screen and (max-width: 530px) {
   .App nav .title-bar h2 {
@@ -37,11 +43,30 @@
   .App nav .nav-links {
     flex-wrap: wrap;
   }
+  .App .home-wrapper {
+    justify-content: center;
+  }
+  .App .about-wrapper .about-the-authors .the-cards .author-card .author {
+    flex-direction: column;
+    width: 50%;
+  }
+  .App .about-wrapper .about-the-authors .the-cards .author-card .author .author-picture img {
+    width: 75%;
+  }
   .App .guide-wrapper .the-tips .tips .tip-card {
     width: 300px;
   }
 }
 @media only screen and (max-width: 400px) {
+  .App .home-wrapper {
+    padding: 1.2em 0.5em;
+  }
+  .App .home-wrapper .home-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .App .guide-wrapper .the-tips .tips .tip-card {
     width: 250px;
   }

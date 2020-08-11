@@ -250,12 +250,14 @@ body {
   justify-content: space-evenly;
   align-items: flex-start;
   flex-wrap: wrap;
+  width: 85%;
 }
 .App .guide-wrapper .the-tips .tips {
   display: flex;
   flex-direction: row;
   align-items: center;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 .App .guide-wrapper .the-tips .tips .tip-card {
   display: flex;
@@ -301,7 +303,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 60rem;
+  width: 80%;
   padding: 1em;
   margin: 1em;
 }
@@ -331,6 +333,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
 .App .about-wrapper .about-the-authors .the-cards .author-card .author {
   display: flex;
@@ -338,7 +341,7 @@ body {
   align-items: center;
   border: 6px groove #F57D84;
   margin: 1em;
-  width: 35em;
+  width: 80%;
 }
 .App .about-wrapper .about-the-authors .the-cards .author-card .author .author-picture {
   padding: 0.5em;
@@ -395,6 +398,12 @@ body {
   .App .home-wrapper {
     flex-wrap: wrap;
   }
+  .App .home-wrapper .home-section p {
+    padding: 3px;
+  }
+  .App .home-buttons {
+    flex-wrap: wrap;
+  }
 }
 @media only screen and (max-width: 530px) {
   .App nav .title-bar h2 {
@@ -406,11 +415,30 @@ body {
   .App nav .nav-links {
     flex-wrap: wrap;
   }
+  .App .home-wrapper {
+    justify-content: center;
+  }
+  .App .about-wrapper .about-the-authors .the-cards .author-card .author {
+    flex-direction: column;
+    width: 50%;
+  }
+  .App .about-wrapper .about-the-authors .the-cards .author-card .author .author-picture img {
+    width: 75%;
+  }
   .App .guide-wrapper .the-tips .tips .tip-card {
     width: 300px;
   }
 }
 @media only screen and (max-width: 400px) {
+  .App .home-wrapper {
+    padding: 1.2em 0.5em;
+  }
+  .App .home-wrapper .home-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .App .guide-wrapper .the-tips .tips .tip-card {
     width: 250px;
   }
