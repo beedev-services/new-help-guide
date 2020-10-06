@@ -4,7 +4,7 @@
 This app is a compilation of hints, tips, and tricks regarding web development.  A guide for a web developer of any skill level.
 
 ## What is currently live and working?
-Currently at `https://navyladyveteran.com` is the current build in the master branch.
+Currently at https://navyladyveteran.com is the current build in the master branch. It is also currently using the api listed below.
 
 ## What is still needed?
 A few things are still desired for this app.
@@ -30,7 +30,7 @@ Right now all tips are added directly on the backend.  The addition of a Admin s
 7. API for login `/api/auth/login`
 
 ## API base URL
-`https://beedev-services-help-guide-api.herokuapp.com`
+https://beedev-services-help-guide-api.herokuapp.com
 
 1. Documentation for API is being created and will be found directly on the base url.
 
@@ -42,7 +42,7 @@ Right now all tips are added directly on the backend.  The addition of a Admin s
 # Questions?
 Please feel free to reach out to Melissa Longenberger (owner):
 1. melissa@beedev-services.com 
-2. Slack Channel = `https://join.slack.com/t/beedev-itservices/shared_invite/zt-i21p28jo-P3LBfEjpMRCO7yxwmqA7Og`
+2. Slack Channel = https://join.slack.com/t/beedev-itservices/shared_invite/zt-i21p28jo-P3LBfEjpMRCO7yxwmqA7Og
 
 ## Run app
 1. Clone repo
