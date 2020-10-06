@@ -16,7 +16,7 @@ This is a form where a visitor of the site who might have a tip to add can submi
 2. User should be able to select from the available topics or types of guide to help organize tips
 3. User should enter their email address, and at least a 1st name so that if there are questions on the tip provided a follow up email could be sent.
 4. Delivery of the user submitted tip for now will be adding to the database. (email sent to admin and user on future release)
-5. API link for database is `/api/newtips` (currently being created)
+5. API link for database is `/api/newtips` (database created routes not)
 
 ### 2) Admin side:
 Right now all tips are added directly on the backend.  The addition of a Admin side of the site to allow admin users to add the tips is needed
@@ -33,6 +33,7 @@ Right now all tips are added directly on the backend.  The addition of a Admin s
 https://beedev-services-help-guide-api.herokuapp.com
 
 1. Documentation for API is being created and will be found directly on the base url.
+2. Database tables are created, routes are still being added.
 
 ## Rules
 1. Do not push to master branch
