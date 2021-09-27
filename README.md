@@ -43,7 +43,7 @@ https://beedev-services-help-guide-api.herokuapp.com
 # Questions?
 Please feel free to reach out to Melissa Longenberger (owner):
 1. melissa@beedev-services.com 
-2. Slack Channel = https://join.slack.com/t/beedev-itservices/shared_invite/zt-i21p28jo-P3LBfEjpMRCO7yxwmqA7Og
+2. Slack Channel = https://join.slack.com/t/beedev-workspace/shared_invite/zt-w8zrxgiu-G4jRerfz0JcboaX~qdnDvg
 
 ## Run app
 1. Clone repo
